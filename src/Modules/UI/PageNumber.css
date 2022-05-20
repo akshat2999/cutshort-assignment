@@ -1,0 +1,26 @@
+.box {
+  width: 30%;
+  margin: auto;
+}
+.ant-steps-item-icon {
+  margin: 0px !important;
+}
+.ant-steps-item {
+  padding-left: 0px !important;
+}
+.ant-steps-item-title {
+  left: 0px !important;
+  top: 10px !important;
+}
+.ant-steps-item-title::after {
+  left: 0px !important;
+  top: 10px !important;
+}
+.ant-steps-icon {
+  left: 0px !important;
+}
+.ant-steps-vertical {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

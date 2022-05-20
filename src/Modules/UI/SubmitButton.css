@@ -1,0 +1,19 @@
+input[type="submit"] {
+  background-color: #664de5;
+  width: 100%;
+  border-radius: 5px;
+  padding: 3%;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.outer-box {
+  width: 30%;
+  margin: auto !important;
+}
+@media only screen and (max-width: 768px) {
+  .outer-box {
+    width: 90%;
+  }
+}

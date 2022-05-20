@@ -1,0 +1,33 @@
+.parent-box {
+  width: 25%;
+  margin: auto;
+}
+
+input[type="submit"] {
+  background-color: #664de5;
+  width: 100%;
+  border-radius: 5px;
+  padding: 3%;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+label {
+  padding-top: 30px;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ant-input {
+  padding: 3%;
+  /* border: none !important; */
+}
+
+@media only screen and (max-width: 768px) {
+  .parent-box {
+    width: 90%;
+  }
+}
